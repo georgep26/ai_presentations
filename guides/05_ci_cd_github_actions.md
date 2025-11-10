@@ -7,9 +7,9 @@ This guide covers setting up automated rendering and publishing with GitHub Acti
 The repository includes a GitHub Actions workflow (`.github/workflows/render-and-publish.yml`) that:
 1. Renders all Quarto documents on push to `main`
 2. Publishes to GitHub Pages automatically
-3. Supports both Mode A (docs/) and Mode B (gh-pages)
+3. Supports both Mode A (publish/) and Mode B (gh-pages)
 
-## Mode A: docs/ Directory (Default)
+## Mode A: publish/ Directory (Default)
 
 **Recommended for most use cases.**
 
@@ -19,7 +19,7 @@ The repository includes a GitHub Actions workflow (`.github/workflows/render-and
 2. **Configure GitHub Pages:**
    - Go to repository Settings → Pages
    - Source: **Branch: main**
-   - Folder: **/docs**
+   - Folder: **/publish**
    - Save
 
 3. **Push to main branch:**
@@ -31,8 +31,9 @@ The repository includes a GitHub Actions workflow (`.github/workflows/render-and
 
 4. **Workflow runs automatically:**
    - Renders all `.qmd` files
-   - Outputs to `docs/` directory
+   - Outputs to `publish/` directory
    - Deploys to GitHub Pages
+   - The executive summary example will be available at `/examples/deck-executive-summary/`
 
 ### How It Works
 
@@ -46,10 +47,10 @@ The repository includes a GitHub Actions workflow (`.github/workflows/render-and
   uses: peaceiris/actions-gh-pages@v3
   with:
     github_token: ${{ secrets.GITHUB_TOKEN }}
-    publish_dir: ./docs
+    publish_dir: ./publish
 ```
 
-The `docs/` directory is committed to the main branch, and GitHub Pages serves from it.
+The `publish/` directory is committed to the main branch, and GitHub Pages serves from it.
 
 ## Mode B: gh-pages Branch (Optional)
 
@@ -150,7 +151,7 @@ quarto render presentation.qmd --to pptx
 1. **Test locally first**: Run `quarto render` before pushing
 2. **Check Actions**: Monitor workflow runs after pushing
 3. **Use Mode A by default**: Simpler and works out of the box
-4. **Commit rendered files**: In Mode A, commit `docs/` directory
+4. **Commit rendered files**: In Mode A, commit `publish/` directory
 5. **Document customizations**: Note any workflow modifications
 
 ## Advanced Configuration

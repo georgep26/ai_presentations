@@ -18,18 +18,18 @@ jobs:
         with:
           path: .
       
-      # Mode A (default): Renders to docs/ directory
-      # The docs/ directory will be available as a workflow artifact
-      # To publish: Commit the docs/ directory to main branch, then configure
-      # GitHub Pages: Settings → Pages → Branch: main / Folder: docs
+      # Mode A (default): Renders to publish/ directory
+      # The publish/ directory will be available as a workflow artifact
+      # To publish: Commit the publish/ directory to main branch, then configure
+      # GitHub Pages: Settings → Pages → Branch: main / Folder: publish
       
-      # Optional: Auto-commit docs/ (requires workflow write permissions)
-      # - name: Commit and push docs/
+      # Optional: Auto-commit publish/ (requires workflow write permissions)
+      # - name: Commit and push publish/
       #   run: |
       #     git config --local user.email "action@github.com"
       #     git config --local user.name "GitHub Action"
-      #     git add docs/
-      #     git commit -m "Render site to docs/" || exit 0
+      #     git add publish/
+      #     git commit -m "Render site to publish/" || exit 0
       #     git push
       
       # If using gh-pages mode (Mode B), uncomment below

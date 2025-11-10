@@ -51,9 +51,9 @@ User: "Create a new deck called weekly-sync using executive-summary"
 1. Inspect the `.qmd` file's YAML front-matter
 2. Determine format:
    - **If `format.revealjs`**: 
-     - Check `_quarto.yml` for `project.output-dir: docs`
+     - Check `_quarto.yml` for `project.output-dir: publish`
      - Explain: Run `quarto render` and push to main branch
-     - GitHub Pages will serve from `docs/` directory
+     - GitHub Pages will serve from `publish/` directory
    - **If `format.pptx`**: 
      - Run: `quarto render path/to/index.qmd --to pptx`
      - Report output location
