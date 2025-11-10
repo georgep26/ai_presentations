@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: publish   # Pages-friendly (Mode A by default)
+  output-dir: docs   # Pages-friendly (Mode A by default)
 
 website:
   title: "Quarto AI Slides"

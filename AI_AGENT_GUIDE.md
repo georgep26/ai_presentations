@@ -79,7 +79,7 @@ Publish the current deck to appropriate format.
 
 **Process:**
 1. Inspect YAML front-matter to determine format
-2. **If `format.revealjs`**: Render site, ensure `project.output-dir: publish` or gh-pages workflow exists
+2. **If `format.revealjs`**: Render site, ensure `project.output-dir: docs` or gh-pages workflow exists
 3. **If `format.pptx`**: Run `quarto render path/to/index.qmd --to pptx`
 4. **If `format.beamer` or PDF**: Run `quarto render path/to/index.qmd --to pdf` (requires LaTeX)
 5. Report output location/URL
@@ -125,10 +125,10 @@ See `templates/executive-summary.qmd` for the full pattern.
 
 ## Publishing
 
-### Mode A: publish/ Directory (Default)
-- Output directory: `publish/`
-- GitHub Pages source: Branch `main` / Folder `publish`
-- Workflow: `.github/workflows/render-and-publish.yml` renders to `publish/`
+### Mode A: docs/ Directory (Default)
+- Output directory: `docs/`
+- GitHub Pages source: Branch `main` / Folder `docs`
+- Workflow: `.github/workflows/render-and-publish.yml` renders to `docs/`
 - **Use this by default** - it's simpler and works out of the box
 
 ### Mode B: gh-pages Branch

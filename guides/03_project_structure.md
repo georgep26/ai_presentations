@@ -50,7 +50,7 @@ quarto-ai-slides/
 
 Root configuration file that defines:
 - Project type (website)
-- Output directory (`publish/` for GitHub Pages)
+- Output directory (`docs/` for GitHub Pages)
 - Default format options
 - Website navigation
 
@@ -104,7 +104,7 @@ examples/deck-your-name/
 
 ## Output Directory
 
-### `publish/` (Mode A - Default)
+### `docs/` (Mode A - Default)
 
 - Rendered HTML files go here
 - GitHub Pages serves from this directory
@@ -129,7 +129,7 @@ examples/deck-your-name/
 2. **Use examples as reference**: Copy structure, not content
 3. **Organize by purpose**: Group related decks
 4. **Document customizations**: Note any deviations from templates
-5. **Version control**: Commit both source (`.qmd`) and rendered output (`publish/`)
+5. **Version control**: Commit both source (`.qmd`) and rendered output (`docs/`)
 
 ## Next Steps
 

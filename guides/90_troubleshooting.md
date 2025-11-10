@@ -102,7 +102,7 @@ tlmgr install <package-name>
 
 2. **Verify Pages settings:**
    - Settings → Pages
-   - Correct branch (main) and folder (publish)
+   - Correct branch (main) and folder (docs)
    - Save if needed
 
 3. **Wait and refresh:**
@@ -111,7 +111,7 @@ tlmgr install <package-name>
    - Clear browser cache
 
 4. **Check file paths:**
-   - Ensure `publish/` directory exists
+   - Ensure `docs/` directory exists
    - Verify files were rendered
 
 5. **Manual trigger:**

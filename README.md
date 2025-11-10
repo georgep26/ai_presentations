@@ -23,12 +23,12 @@ Or install manually:
 quarto render
 ```
 
-This will build all presentations and generate the site in the `publish/` directory.
+This will build all presentations and generate the site in the `docs/` directory.
 
 ### 3. Enable GitHub Pages
 
 1. Go to your repository Settings → Pages
-2. Set Source to: **Branch: main** / **Folder: publish**
+2. Set Source to: **Branch: main** / **Folder: docs**
 3. Save and wait a few minutes for the site to deploy
 4. Your site will be available at `https://[username].github.io/[repo-name]/`
 5. The executive summary example is published at `https://[username].github.io/[repo-name]/examples/deck-executive-summary/`
