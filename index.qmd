@@ -1,0 +1,70 @@
+---
+title: "Quarto AI Slides"
+---
+
+## Welcome
+
+This repository provides a scaffolded environment for creating beautiful presentations with Quarto, optimized for AI-assisted editing.
+
+## Quick Links
+
+- [AI Agent Guide](AI_AGENT_GUIDE.html) - Start here if you're an AI editor
+- [Quarto Basics](guides/00_quarto_basics.html) - Learn the fundamentals
+- [Templates](templates/) - Ready-to-use presentation templates
+- [Examples](examples/) - Sample decks demonstrating best practices
+
+## Getting Started
+
+1. **Install Quarto:**
+   ```bash
+   ./quarto_install.sh
+   ```
+
+2. **Render the site:**
+   ```bash
+   quarto render
+   ```
+
+3. **View locally:**
+   ```bash
+   quarto preview
+   ```
+
+## Templates
+
+Choose a template based on your needs:
+
+- **Reveal.js** - Interactive HTML presentations for web
+- **PowerPoint** - Microsoft PowerPoint format for sharing
+- **Beamer** - PDF presentations with LaTeX quality
+- **Executive Summary** - Pattern for status updates
+
+## Examples
+
+Explore example decks:
+
+- [Executive Summary](examples/deck-executive-summary/index.html)
+- [AI Roadmap](examples/deck-ai-roadmap/index.html)
+- [Product Kickoff](examples/deck-product-kickoff/index.html)
+
+## Guides
+
+Comprehensive documentation:
+
+- [Quarto Basics](guides/00_quarto_basics.html)
+- [Reveal.js Features](guides/01_presentations_revealjs.html)
+- [PowerPoint Export](guides/02_presentations_pptx.html)
+- [Project Structure](guides/03_project_structure.html)
+- [Extensions & Filters](guides/04_extensions_and_filters.html)
+- [CI/CD Setup](guides/05_ci_cd_github_actions.html)
+- [Troubleshooting](guides/90_troubleshooting.html)
+
+## For AI Editors
+
+If you're an AI assistant (Cursor, Copilot, etc.), see the [AI Agent Guide](AI_AGENT_GUIDE.html) for:
+
+- Format selection guidelines
+- Scaffold/edit/publish workflows
+- House style conventions
+- Publishing modes
+

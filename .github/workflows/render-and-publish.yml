@@ -1,0 +1,43 @@
+name: Render & Publish Quarto
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: quarto-dev/quarto-actions/setup@v2
+      
+      - name: Render project
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          path: .
+      
+      # Mode A (default): Renders to docs/ directory
+      # The docs/ directory will be available as a workflow artifact
+      # To publish: Commit the docs/ directory to main branch, then configure
+      # GitHub Pages: Settings → Pages → Branch: main / Folder: docs
+      
+      # Optional: Auto-commit docs/ (requires workflow write permissions)
+      # - name: Commit and push docs/
+      #   run: |
+      #     git config --local user.email "action@github.com"
+      #     git config --local user.name "GitHub Action"
+      #     git add docs/
+      #     git commit -m "Render site to docs/" || exit 0
+      #     git push
+      
+      # If using gh-pages mode (Mode B), uncomment below
+      # Also update repository Settings → Pages to use Branch: gh-pages / Folder: / (root)
+      # - name: Publish to gh-pages
+      #   uses: quarto-dev/quarto-actions/publish@v2
+      #   with:
+      #     target: gh-pages
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+

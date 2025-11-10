@@ -1,0 +1,18 @@
+[
+  {
+    "name": "new-deck",
+    "description": "Scaffold a new Quarto deck from a template",
+    "prompt": "Create a new Quarto deck named {{slug}} using the {{template}} template (revealjs|pptx|beamer|executive-summary). Update YAML with title '{{title}}', author '{{author}}', date today. Place it under examples/deck-{{slug}}/index.qmd. Then print next steps to render and publish."
+  },
+  {
+    "name": "edit-deck",
+    "description": "Edit or extend the current Quarto presentation",
+    "prompt": "You are editing an existing Quarto presentation (.qmd). Follow AI_AGENT_GUIDE.md. Improve structure, fix YAML, add slides/notes, apply house style. If user mentions Executive Summary, ensure Overview/Updates/Risks slides exist."
+  },
+  {
+    "name": "publish-deck",
+    "description": "Publish the current deck (HTML Pages, PPTX, or PDF)",
+    "prompt": "Inspect the current .qmd YAML. If format.revealjs → GitHub Pages; if format.pptx → produce PPTX; if beamer/pdf → produce PDF. For Pages ensure project.output-dir: docs or gh-pages workflow exists. Run appropriate render steps and summarize where to find outputs/URL."
+  }
+]
+

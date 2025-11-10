@@ -1,0 +1,92 @@
+---
+title: "Executive Summary"
+author: "Team Name"
+date: today
+format:
+  revealjs:
+    slide-number: true
+    incremental: true
+    theme: default
+    transition: slide
+---
+
+## Project Overview
+
+### Background
+
+- **Context:** Brief context about the project {.fragment}
+- **Objectives:** What we're trying to achieve {.fragment}
+- **Timeline:** Key milestones {.fragment}
+
+### Team
+
+- **PM:** Alice {.fragment}
+- **Engineering:** Bob, Carol {.fragment}
+- **Design:** Dana {.fragment}
+- **Data Science:** Evan {.fragment}
+
+::: notes
+Links: PRD, backlog, roadmap
+:::
+
+## Project Updates
+
+### Progress
+
+- Completed milestone 1 {.fragment}
+- Completed milestone 2 {.fragment}
+- In progress: milestone 3 {.fragment}
+
+::: notes
+Reference specific issues/tickets here.
+:::
+
+### Next Steps
+
+- Immediate action item 1 {.fragment}
+- Immediate action item 2 {.fragment}
+- Immediate action item 3 {.fragment}
+
+::: notes
+Reference issues/tickets for next steps.
+:::
+
+## Risks
+
+### Risk 1: Dependency on X
+
+- **Impact:** High {.fragment}
+- **Mitigation:** Action plan here {.fragment}
+
+### Risk 2: Performance Target
+
+- **Impact:** Medium {.fragment}
+- **Mitigation:** Optimization strategy {.fragment}
+
+### Risk 3: Hiring Gap
+
+- **Impact:** Medium {.fragment}
+- **Mitigation:** Recruitment plan {.fragment}
+
+::: notes
+Be prepared to discuss:
+- Escalation paths
+- Contingency plans
+- Resource needs
+:::
+
+## Summary
+
+- Project is on track {.fragment}
+- Key risks identified and mitigated {.fragment}
+- Next steps clear {.fragment}
+
+## Questions?
+
+::: notes
+Anticipate questions about:
+- Timeline adjustments
+- Resource allocation
+- Risk mitigation strategies
+:::
+

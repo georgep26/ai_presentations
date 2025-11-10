@@ -1,0 +1,98 @@
+---
+title: "Presentation Title"
+author: "Your Name"
+date: today
+format:
+  revealjs:
+    slide-number: true
+    toc: true
+    incremental: true
+    theme: default
+    transition: slide
+---
+
+## Introduction
+
+Welcome to this presentation
+
+::: notes
+Add speaker notes here. These won't appear on the slide but will be visible in presenter mode.
+:::
+
+## Agenda
+
+- Topic 1 {.fragment}
+- Topic 2 {.fragment}
+- Topic 3 {.fragment}
+
+## Main Content
+
+### First Point
+
+- Important detail 1 {.fragment}
+- Important detail 2 {.fragment}
+- Important detail 3 {.fragment}
+
+::: {.callout-note}
+## Note
+This is a callout box for highlighting important information.
+:::
+
+## Two Column Layout
+
+::: {.columns}
+::: {.column width="50%"}
+**Left Column**
+
+- Point A
+- Point B
+:::
+
+::: {.column width="50%"}
+**Right Column**
+
+- Point C
+- Point D
+:::
+:::
+
+## Code Example
+
+```python
+def hello_world():
+    print("Hello, Quarto!")
+```
+
+::: notes
+Explain the code example here.
+:::
+
+## Visuals
+
+![Image caption](path/to/image.png)
+
+Or use a figure:
+
+```{=html}
+<div class="figure">
+<img src="path/to/image.png" alt="Description"/>
+<p class="caption">Figure caption</p>
+</div>
+```
+
+## Summary
+
+- Key takeaway 1 {.fragment}
+- Key takeaway 2 {.fragment}
+- Key takeaway 3 {.fragment}
+
+## Questions?
+
+Thank you!
+
+::: notes
+Be prepared for questions about:
+- Topic X
+- Topic Y
+:::
+

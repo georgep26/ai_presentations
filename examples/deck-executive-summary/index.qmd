@@ -1,0 +1,55 @@
+---
+title: "Executive Summary"
+author: "Team Name"
+date: today
+format:
+  revealjs:
+    slide-number: true
+    incremental: true
+---
+
+## Project Overview
+
+- **Background:** This project aims to improve our product's user experience through iterative design and development.
+
+- **Objectives:** 
+  - Increase user engagement by 25%
+  - Reduce support tickets by 30%
+  - Launch new features by Q2
+
+- **Team:** PM — Alice | Eng — Bob, Carol | Design — Dana | DS — Evan
+
+::: notes
+Links: PRD, backlog, roadmap.
+:::
+
+## Project Updates
+
+### Progress
+
+- Completed user research phase {.fragment}
+- Design mockups approved {.fragment}
+- Development sprint 1 in progress {.fragment}
+
+### Next Steps
+
+- Complete sprint 1 features {.fragment}
+- Begin user testing {.fragment}
+- Prepare for Q2 launch {.fragment}
+
+::: notes
+Reference issues/tickets.
+:::
+
+## Risks
+
+- **Dependency on X** → *Mitigation:* Established backup vendor relationship {.fragment}
+
+- **Performance target** → *Mitigation:* Early performance testing and optimization {.fragment}
+
+- **Hiring gap** → *Mitigation:* Active recruitment and contractor support {.fragment}
+
+::: notes
+Be prepared to discuss escalation paths and resource needs.
+:::
+

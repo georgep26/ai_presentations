@@ -1,0 +1,22 @@
+PLACEHOLDER: This is a placeholder file for a PowerPoint template (.potx file).
+
+To use a custom PowerPoint template:
+
+1. Create or obtain a .potx (PowerPoint template) file with your brand styling
+2. Replace this file with your actual .potx file
+3. Ensure the template includes:
+   - Title slide layout
+   - Content slide layout
+   - Any custom layouts you want to use
+
+The .potx file format is a binary format that cannot be created as plain text.
+You'll need to:
+- Create it in PowerPoint (File → Save As → PowerPoint Template)
+- Or download a template from your organization's brand guidelines
+
+Once you have the .potx file, place it at: templates/theme/brand.potx
+
+The _quarto.yml configuration already references this path:
+  pptx:
+    reference-doc: templates/theme/brand.potx
+

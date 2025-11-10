@@ -1,0 +1,68 @@
+---
+title: "Presentation Title"
+author: "Your Name"
+date: today
+format:
+  beamer:
+    theme: metropolis
+    colortheme: default
+    fonttheme: default
+---
+
+## Introduction
+
+Welcome to this presentation
+
+## Agenda
+
+- Topic 1
+- Topic 2
+- Topic 3
+
+## Main Content
+
+### First Point
+
+- Important detail 1
+- Important detail 2
+- Important detail 3
+
+## Two Column Layout
+
+::: {.columns}
+::: {.column width="50%"}
+**Left Column**
+
+- Point A
+- Point B
+:::
+
+::: {.column width="50%"}
+**Right Column**
+
+- Point C
+- Point D
+:::
+:::
+
+## Code Example
+
+```python
+def hello_world():
+    print("Hello, Quarto!")
+```
+
+## Visuals
+
+![Image caption](path/to/image.png)
+
+## Summary
+
+- Key takeaway 1
+- Key takeaway 2
+- Key takeaway 3
+
+## Questions?
+
+Thank you!
+

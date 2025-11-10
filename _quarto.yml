@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs   # Pages-friendly (Mode A by default)
+
+website:
+  title: "Quarto AI Slides"
+  navbar:
+    right:
+      - text: "Guides"
+        href: guides/00_quarto_basics.html
+
+format:
+  revealjs:
+    slide-number: true
+    toc: true
+    incremental: true
+  pptx:
+    reference-doc: templates/theme/brand.potx
+  beamer:
+    theme: metropolis
+
