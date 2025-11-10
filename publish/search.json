@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "templates/revealjs-minimal.html#introduction",
+    "href": "templates/revealjs-minimal.html#introduction",
+    "title": "Presentation Title",
+    "section": "Introduction",
+    "text": "Introduction\nWelcome to this presentation\n\nAdd speaker notes here. These won’t appear on the slide but will be visible in presenter mode."
+  },
+  {
+    "objectID": "templates/revealjs-minimal.html#agenda",
+    "href": "templates/revealjs-minimal.html#agenda",
+    "title": "Presentation Title",
+    "section": "Agenda",
+    "text": "Agenda\n\nTopic 1 {.fragment}\nTopic 2 {.fragment}\nTopic 3 {.fragment}"
+  },
+  {
+    "objectID": "templates/revealjs-minimal.html#main-content",
+    "href": "templates/revealjs-minimal.html#main-content",
+    "title": "Presentation Title",
+    "section": "Main Content",
+    "text": "Main Content\nFirst Point\n\nImportant detail 1 {.fragment}\nImportant detail 2 {.fragment}\nImportant detail 3 {.fragment}\n\n\n\n\n\n\n\nNote\n\n\nThis is a callout box for highlighting important information."
+  },
+  {
+    "objectID": "templates/revealjs-minimal.html#two-column-layout",
+    "href": "templates/revealjs-minimal.html#two-column-layout",
+    "title": "Presentation Title",
+    "section": "Two Column Layout",
+    "text": "Two Column Layout\n\n\nLeft Column\n\nPoint A\nPoint B\n\n\nRight Column\n\nPoint C\nPoint D"
+  },
+  {
+    "objectID": "templates/revealjs-minimal.html#code-example",
+    "href": "templates/revealjs-minimal.html#code-example",
+    "title": "Presentation Title",
+    "section": "Code Example",
+    "text": "Code Example\ndef hello_world():\n    print(\"Hello, Quarto!\")\n\nExplain the code example here."
+  },
+  {
+    "objectID": "templates/revealjs-minimal.html#visuals",
+    "href": "templates/revealjs-minimal.html#visuals",
+    "title": "Presentation Title",
+    "section": "Visuals",
+    "text": "Visuals\n\n\n\nImage caption\n\n\nOr use a figure:\n\n\nFigure caption"
+  },
+  {
+    "objectID": "templates/revealjs-minimal.html#summary",
+    "href": "templates/revealjs-minimal.html#summary",
+    "title": "Presentation Title",
+    "section": "Summary",
+    "text": "Summary\n\nKey takeaway 1 {.fragment}\nKey takeaway 2 {.fragment}\nKey takeaway 3 {.fragment}"
+  },
+  {
+    "objectID": "templates/revealjs-minimal.html#questions",
+    "href": "templates/revealjs-minimal.html#questions",
+    "title": "Presentation Title",
+    "section": "Questions?",
+    "text": "Questions?\nThank you!\n\nBe prepared for questions about: - Topic X - Topic Y"
+  }
+]
